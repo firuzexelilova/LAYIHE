@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 0 5rem;
+  width: 100%;
+}
+
+#Header {
+  width: 100%;
+  padding: 30px 10;
+  position: fixed;
+  z-index: 2;
+}
+
+#Header .header-all left {
+  width: 20%;
+  float: left;
+}
+
+#Header .header-all left a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Header .header-all .right {
+  width: 25%;
+  float: right;
+}
+
+#Header .header-all .right ul {
+  list-style: none;
+}
+
+#Header .header-all .right ul li {
+  float: left;
+  padding: 0 10px;
+  font-size: 14.4px;
+  font-weight: bold;
+  color: white;
+}
+
+#Second {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 18rem 0;
+  z-index: 1;
+  position: relative;
+}
+
+#Second .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #685b5b;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#Second .second-text {
+  text-align: center;
+}
+
+#Second .second-text h1 {
+  color: white;
+  font-size: 56px;
+}
+
+#Second .second-text p {
+  font-size: 18.4px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#Second .second-text a {
+  text-decoration: none;
+  background-color: #f4623a;
+  border-radius: 50px;
+  padding: 20px 36px;
+  font-size: 13.6px;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: 0.4;
+  transition: 0.4;
+}
+
+#Second .second-text a:hover {
+  background-color: #96590a;
+}
+
+#Second .second-text hr {
+  background-color: #f4623a;
+  width: 7%;
+  margin: 30px auto;
+  height: 3px;
+  border: none;
+}
+
+#Third {
+  background-color: #f4623a;
+  padding: 7rem 0;
+}
+
+#Third .third-text {
+  text-align: center;
+}
+
+#Third .third-text h2 {
+  color: #fff;
+  font-size: 32px;
+}
+
+#Third .third-text hr {
+  background-color: #fff;
+  height: 3px;
+  border: none;
+  margin: 30px auto;
+  width: 6%;
+}
+
+#Third .third-text p {
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+
+#Third .third-text a {
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 20px 36px;
+  font-size: 13.6px;
+  -webkit-columns: #000000;
+          columns: #000000;
+  font-weight: bold;
+  -webkit-transition: 0.4;
+  transition: 0.4;
+}
+
+#Third .third-text a:hover {
+  background-color: #ece2e2;
+}
+
+#Fourth {
+  padding: 8rem o;
+}
+
+#Fourth .fourth-text {
+  text-align: center;
+}
+
+#Fourth .fourth-text h2 {
+  font-size: 32px;
+}
+
+#Fourth .fourth-text hr {
+  background-color: #f4623a;
+  height: 3px;
+  border: none;
+  margin: 30px auto;
+  width: 6%;
+}
+
+#Fourth .fourth-all .box {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+#Fourth .fourth-all .box i {
+  color: #f4623a;
+  font-size: 50px;
+}
+
+#Fourth .fourth-all .box h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#Fourth .fourth-all .box p {
+  color: #000000;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+#Fifth {
+  margin: 5em 0;
+}
+
+#Fifth .fifth-all .box {
+  width: 33%;
+  float: left;
+  position: relative;
+}
+
+#Fifth .fifth-all .box:hover .overlay {
+  opacity: 0.8;
+}
+
+#Fifth .fifth-all .box img {
+  width: 100%;
+}
+
+#Fifth .fifth-all .box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f4623a;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+/*# sourceMappingURL=style.css.map */
